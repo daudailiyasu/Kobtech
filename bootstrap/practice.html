@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <!-- Required meta tags -->
+   <!-- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="css/newcss.css">
+     <script src="jquery-3.4.1.min.js">
+	 $(document).ready(function(){
+
+ //jQuery methods go here...
+ $(".jimage").hide();
+ 
+  /* $("button").click(function(){
+    $("p").hide();
+  });*/
+
+});
+	 
+	 </script>
+    <title>Hello, world!</title>
+  </head>
+  
+  <body>
+  <div class="container  outer">
+		<header>
+		<div>
+		<img src="image/baner.gif" class="logo1">
+		</div>
+		<div class="navdiv  outer">
+			<nav class="nav-top">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+				<div id="datetime">
+					<h2 name="currentdate" id="d">
+					
+					</h2>
+				  
+				</div>
+		</header>
+		</div>
+		<div class="clearfix"></div>
+		<div class="container2  outer">
+		<section class="leftside">
+		<div class="grid">
+			<article>
+				<header class="header1">
+					<h2>hhjhgjhgjhghj</h2>
+					<h2>hjhghjghjgjhhj</h2>
+				</header>
+				<p>vvvhhgghfghfhfhgfghhgfh</p>
+				<img src="image/candy.jpg" class="jimage">
+				<footer>
+				<a href="#">See more</a>
+				</footer>
+			</article>
+		</div>
+		<section class="leftside">
+		<div class="grid3">
+			<article>
+				<header>
+					<h2>hhjhgjhgjhghj</h2>
+					<h2>hjhghjghjgjhhj</h2>
+				</header>
+				<p>vvvhhgghfghfhfhgfghhgfh</p>
+				<footer>
+				<a href="#">See more</a>
+				</footer>
+			</article>
+		</div>
+		<div class="grid3">
+			<article>
+				<header>
+					<h2>hhjhgjhgjhghj</h2>
+					<h2>hjhghjghjgjhhj</h2>
+				</header>
+				<p>vvvhhgghfghfhfhgfghhgfh</p>
+				<footer>
+				<a href="#">See more</a>
+				</footer>
+			</article>
+		</div>
+		<div class="grid3">
+			<article>
+				<header>
+					<h2>hhjhgjhgjhghj</h2>
+					<h2>hjhghjghjgjhhj</h2>
+				</header>
+				<p>vvvhhgghfghfhfhgfghhgfh</p>
+				<footer>
+				<a href="#">See more</a>
+				</footer>
+			</article>
+		</div>
+		</section>
+		</section>
+		
+		<aside class="rightside  outer">
+		<div>
+	
+		<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+		</div>
+		<div>
+		        <article>
+				<header>
+					<h2>hhjhgjhgjhghj</h2>
+					<h2>hjhghjghjgjhhj</h2>
+				</header>
+				<p>vvvhhgghfghfhfhgfghhgfh</p>
+				<footer>
+				<a href="#">See more</a>
+				</footer>
+			</article>
+		</div>
+		</aside>
+		<aside class="rightside  outer">
+		<div>
+		<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+		</div>
+		<div>
+		        <article>
+				<header>
+					<h2>hhjhgjhgjhghj</h2>
+					<h2>hjhghjghjgjhhj</h2>
+				</header>
+				<p>vvvhhgghfghfhfhgfghhgfh</p>
+				<footer>
+				<a href="#">See more</a>
+				</footer>
+			</article>
+		</div>
+		</aside>
+		
+	</div>
+	<footer class="foot  outer">
+		&copy daud technology;
+		</footer>
+  </body>
+	  <script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+//currentdate.write(today);
+document.getElementById("d").innerHTML = today;
+	  </script>
+</html>
